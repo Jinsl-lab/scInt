@@ -1,0 +1,1 @@
+We uploaded jupyter notebooks of integration and reference-based mapping tasks on the data sets using in the "scInt: accurate integration of multiple heterogeneous single-cell RNA-seq data sets by learning contrastive biological variation" manuscript. The data sets can be downloaded in the [Zenodo]().
