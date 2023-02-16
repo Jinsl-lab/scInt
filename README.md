@@ -26,11 +26,20 @@ data <- run.Integrate(data)
 For mapping task, scInt takes a list of gene by cell gene expression matrices as inputs and outputs the integrated low-dimensional data.
 
 ```R
-data <- create.scInt(dataset)
-data <- normalize.Data(data)
-data <- ident.cellIdentity(data)
-data <- compute.Similarity(data)
-data <- run.Integrate(data)
+# reference integration
+reference.data <- create.scInt(reference.dataset)
+reference.data <- normalize.Data(reference.data)
+reference.data <- ident.cellIdentity(reference.data)
+reference.data <- compute.Similarity(reference.data)
+reference.data <- run.Integrate(reference.data)
+
+# mapping
+query.data <- create.scInt(query.dataset)
+query.data <- normalize.Data(query.data)
+query.data <- ident.cellIdentity(query.data, vargenes = intersect(reference.data@vargenes, rownames(query.data@norm.data[[1]])))
+query.data <- compute.Similarity(query.data)
+query.data <- run.Integrate(query.data)
+query.data <- run.Mapping(reference.data, query.data)
 ```
 
 ## Tutorials
