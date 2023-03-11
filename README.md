@@ -49,9 +49,9 @@ query.data <- run.Mapping(reference.data, query.data)
 
 ## Tutorials
 
-* For data integration using simulated and real data sets, please see [here]().
+* For data integration using simulated and real data sets, please see [here](https://github.com/Jinsl-lab/scInt/blob/main/tutorial).
 
-* For reference-based mapping on real data sets, please see [here]().
+* For reference-based mapping on real data sets, please see [here](https://github.com/Jinsl-lab/scInt/blob/main/tutorial/Human_pancreas_mapping.ipynb).
 
 # Reproducibility and data sets in the manuscript
 The source codes and jupyter notebook scripts to reproduce the results in the manuscript are available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository](https://zenodo.org/record/7198744#.ZAvbO3ZByw6).
