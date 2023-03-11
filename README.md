@@ -23,8 +23,6 @@ data <- run.Integrate(data)
 ```
 
 ## Reference-based mapping
-For mapping task, scInt takes a list of gene by cell gene expression matrices as inputs and outputs the integrated low-dimensional data.
-
 ```R
 # reference integration
 reference.data <- create.scInt(reference.dataset)
@@ -50,7 +48,7 @@ For more details and full workflow of scInt inculing downstream analysis, please
 * For data integration and subsequent downstream analysis on real data set, please see [here]().
 
 # Reproducibility and data sets in the manuscript
-The source codes and jupyter notebook scripts to reproduce the results in the manuscript are available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository]().
+The source codes and jupyter notebook scripts to reproduce the results in the manuscript are available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository](https://zenodo.org/record/7198744#.ZAvbO3ZByw6).
 
 # Dependencies
-scInt has been successfully installed and used on Windows, Linux and Mac OS. The dependencies including: Biobase, dplyr, irlba, Matrix, matrixStats, methods, rfunctions, Rcpp, RcppEigen, RcppArmadillo, RSpectra, Seurat (>= 4.1.0), uwot.
+scInt has been successfully installed and used on Windows, Linux and Mac OS (R version >= 4.0.2). The dependencies including: Biobase, dplyr, irlba, Matrix, matrixStats, methods, rfunctions, Rcpp, RcppEigen, RcppArmadillo, RSpectra, Seurat (>= 4.1.0), uwot.
