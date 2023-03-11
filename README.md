@@ -22,6 +22,13 @@ data <- compute.Similarity(data)
 data <- run.Integrate(data)
 ```
 
+Selection of key parameters T and lambda:
+
+```R
+data <- compute.Similarity(data, select.T = TRUE, cand_Ts = seq(0.55, 0.8, 0.05))
+data <- run.Integrate(data, select.lambda = TRUE, cand_lambdas = c(0.1, 1, 5, 10, 20))
+```
+
 ## Reference-based mapping
 ```R
 # reference integration
