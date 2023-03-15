@@ -49,7 +49,7 @@ query.data <- run.Mapping(reference.data, query.data)
 
 ## Tutorials
 
-* For data integration using simulated and real data sets, please see [here](https://github.com/Jinsl-lab/scInt/blob/main/tutorial).
+* For data integration using simulated and real data sets, please see [here](https://github.com/Jinsl-lab/scInt/blob/main/tutorial/Simulation%26real_datasets.ipynb).
 
 * For reference-based mapping on real data sets, please see [here](https://github.com/Jinsl-lab/scInt/blob/main/tutorial/Human_pancreas_mapping.ipynb).
 
