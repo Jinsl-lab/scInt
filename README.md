@@ -2,6 +2,7 @@
 scInt: accurate integration of multiple heterogeneous single-cell RNA-seq data sets by learning contrastive biological variation
 
 scInt is a integration tool of exploring single-cell transcriptome in biological issues, especially in the comparison of single-cell samples from different biological conditions. If you have any suggestions or problems on this package, please contact Y. Zhou (yangz@stu.hit.edu.cn), or submit through this Github page directly.
+![Overview](https://github.com/Jinsl-lab/scInt/blob/main/tutorial/Overview.jpg)
 # Installation
 To run scInt R package, install from Github through ``devtools`` directly:
 ```R
