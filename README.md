@@ -56,7 +56,7 @@ query.data <- run.Mapping(reference.data, query.data)
 * For reference-based mapping on real data sets, please see [here](https://github.com/Jinsl-lab/scInt/blob/main/tutorial/Human_pancreas_mapping.ipynb).
 
 # Reproducibility and data sets in the manuscript
-The source codes and jupyter notebook scripts to reproduce the results in the manuscript are available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository](https://zenodo.org/record/7198744#.ZAvbO3ZByw6).
+The source codes and jupyter notebook scripts to reproduce the results in the manuscript are available on the [Github page](https://github.com/Jinsl-lab/scInt_reproducibility). The full information of used data sets can be find in the manuscript. The data sets are available for free in public data bases, and can also be downloaded in the [Zenodo repository](https://zenodo.org/record/7870856#.ZEp7HnZByt8).
 
 # Dependencies
 scInt has been successfully installed and used on Windows, Linux and Mac OS (R version >= 4.0.2). The dependencies including: Biobase, dplyr, irlba, Matrix, matrixStats, methods, rfunctions, Rcpp, RcppEigen, RcppArmadillo, RSpectra, Seurat (>= 4.1.0), uwot.
