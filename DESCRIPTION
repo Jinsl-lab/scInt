@@ -1,0 +1,20 @@
+Package: scInt
+Type: Package
+Title: scInt: accurate integration of multiple heterogeneous
+        single-cell RNA-seq data sets by learning contrastive
+        biological variation
+Version: 1.0
+Date: 2022-10-02
+Author: Yang Zhou
+Maintainer: Yang Zhou <yangz@stu.hit.edu.cn>
+Description: Implementation of the scInt algorithm for single-cell RNA-seq data integration, described in Zhou Y et al.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 2.10)
+Imports: Biobase, dplyr, irlba, Matrix, matrixStats, methods,
+        rfunctions, Rcpp, RcppEigen, RcppArmadillo, RSpectra, Seurat,
+        uwot
+LinkingTo: Rcpp, RcppArmadillo, RcppEigen
+RoxygenNote: 7.1.1
+NeedsCompilation: yes
+Packaged: 2023-04-27 11:31:56 UTC; ZhouYang
