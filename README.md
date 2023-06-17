@@ -60,3 +60,6 @@ The source codes and jupyter notebook scripts to reproduce the results in the ma
 
 # Dependencies
 scInt has been successfully installed and used on Windows, Linux and Mac OS (R version >= 4.0.2). The dependencies including: Biobase, dplyr, irlba, Matrix, matrixStats, methods, rfunctions, Rcpp, RcppEigen, RcppArmadillo, RSpectra, Seurat (>= 4.1.0), uwot.
+
+# Citation
+Zhou Y, Sheng Q, Qi J, Hua J, Yang B, Wan L, Jin S. 2023. Accurate integration of multiple heterogeneous single-cell RNA-seq data sets by learning contrastive biological variation. _Genome Res_ **33:** 750-762.
