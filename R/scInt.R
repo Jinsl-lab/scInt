@@ -160,7 +160,7 @@ create.scInt <- function(raw.data,
       filter.gene <- setdiff(allgenes, genes.use)
       message(paste0(length(filter.gene), ' genes are filtered'))
     } else {
-      message("Genes are no filtered")
+      message("Genes are not filtered")
     }
   }
 
